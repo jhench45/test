@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"/>
+<style type="text/css">
+/*works*/
+
+#section-a{
+
+padding:20px;padding-right:0;padding-top:100px;
+background:white;
+color:#fff;
+text-align:center;
+margin-bottom: 80px;
+
+}
+
+#section-a h1{
+
+font-weight: 400;
+letter-spacing: 10px;
+text-transform: uppercase;
+font-size: 20px;
+
+}
+
+
+
+.line-one {
+
+  height: 1px;
+  width: 100px;
+  background: #8db7ce;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+
+}
+
+
+
+.img-areas{
+
+margin-top:30px;
+align-items: center;
+justify-content: center;
+
+}
+
+
+.container3 {
+
+  position: relative;
+  width: 400px;
+  height: 270px;
+  display: inline-block;
+
+}
+
+.image {
+
+  display: block;
+  width: 400px;
+  height: 270px;
+}
+
+
+.text {
+
+color: white;
+font-size: 30px;
+font-weight: 600;
+padding:20px;
+border:6px solid white;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-family: sans-serif;
+
+}
+
+.overlayFade{
+height: 100%;
+width:100%;
+top:0;
+left:0;
+background-color: rgba(141, 17, 112, 0.7);
+
+}
+
+.overlay {
+
+position: absolute;
+opacity: 0;
+transition:all .3s ease;
+background-color: rgba(17, 141, 108, 0.7);
+
+}
+
+.container3:hover .overlay,.container3:hover .overlayFade {
+  opacity: 1;
+}
+
+.overlayLeft{
+
+height: 100%;
+width:0;
+top:0;
+left:0;
+background-color: rgba(0, 174, 184, 0.7);
+
+}
+
+.overlayRight{
+
+height: 100%;
+width: 0;
+top:0;
+right:0;
+background-color: rgba(17, 135, 141, 0.7);
+
+}
+
+.container3:hover .overlayLeft ,.container3:hover .overlayRight {
+  width: 100%;
+}
+
+.overlayTop{
+
+width: 100%;
+height: 0;
+top:0;
+left:0;
+background-color: rgba(214, 61, 89, 0.7);
+
+}
+
+.overlayBottom{
+width: 100%;
+height: 0;
+bottom:0;
+left:0;
+background-color: rgba(148, 30, 52, 0.7);
+
+}
+
+.container3:hover .overlayTop ,.container3:hover .overlayBottom {
+  height: 100%;
+}
+
+.overlayCross{
+
+width: 0%;
+height: 0;
+top:0;
+left:0;
+background-color: rgba(228, 122, 83, 0.7);
+
+}
+
+.container3:hover .overlayCross {
+  height: 100%;
+  width: 100%;
+}
+
+</style>
+</head>
+<body>
+    <section id="section-a">
+
+        <div class="animated wow fadeInDown">
+            <hr>
+              <h1 style="color:#333;">Our Works</h1>
+          <hr>
+             </div> 
+      
+          <div class="img-areas" >
+      
+            <!-- spring day -->
+      
+              <div class="container3 animated wow zoomIn" data-wow-delay="0.2s">
+                  <img src="https://jhench45.github.io/junich/era/aes3.jpg" alt="Avatar" class="image">
+                  <div class="overlay  overlayLeft">
+                      <div class="text">Gwapo</div>
+                  </div>
+              </div>
+              <div class="container3 animated wow zoomIn" data-wow-delay="0.4s">
+                  <img src="https://jhench45.github.io/junich/era/aes1.jpg" alt="Avatar" class="image">
+                  <div class="overlay overlayRight">
+                      <div class="text">Gwapo</div>
+                  </div>
+              </div>
+              <div class="container3 animated wow zoomIn" data-wow-delay="0.6s">
+                  <img src="https://jhench45.github.io/junich/era/aes4.jpg" alt="Avatar" class="image">
+                  <div class="overlay overlayFade">
+                      <div class="text">Gwapo</div>
+                  </div>
+              </div>
+          </div>
+          <div>
+      
+            <!-- young forever -->
+              <div class="container3 animated wow zoomIn " data-wow-delay="0.8s">
+                  <img src="https://jhench45.github.io/junich/era/h.jpg" alt="Avatar" class="image">
+                  <div class="overlay overlayTop" >
+                      <div class="text">Gwapo</div>
+                  </div>
+              </div>
+              <div class="container3 animated wow zoomIn " data-wow-delay="1s">
+                  <img src="https://jhench45.github.io/junich/era/a.jpg" alt="Avatar" class="image">
+                  <div class="overlay overlayBottom">
+                      <div class="text">Gwapo</div>
+                  </div>
+              </div>
+              <div class="container3 nimated wow zoomIn " data-wow-delay="1.2s">
+                  <img src="https://jhench45.github.io/junich/era/i.jpg" alt="Avatar" class="image">
+                  <div class="overlay overlayCross">
+                      <div class="text">Gwapo</div>
+                  </div>
+              </div>
+      
+              
+          
+              <!--msg -->
+              <div class="container3 animated wow zoomIn "data-wow-delay="0.2s">
+                  <img src="https://jhench45.github.io/junich/era/msg1.jpg" alt="Avatar" class="image">
+                  <div class="overlay overlayTop" >
+                      <div class="text">Gwapo</div>
+                  </div>
+              </div>
+              <div class="container3 animated wow zoomIn "data-wow-delay="0.4s">
+                  <img src="https://jhench45.github.io/junich/era/msg2.jpg" alt="Avatar" class="image">
+                  <div class="overlay overlayBottom">
+                      <div class="text">Gwapo</div>
+                  </div>
+              </div>
+              <div class="container3 animated wow zoomIn "data-wow-delay="0.6s">
+                  <img src="https://jhench45.github.io/junich/era/msg3.jpg" alt="Avatar" class="image">
+                  <div class="overlay overlayCross">
+                      <div class="text">Gwapo</div>
+                  </div>
+              </div>
+          
+        </section>
+    
+</body>
+</html>
